@@ -118,3 +118,79 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/* iphone */
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 50%;
+  }
+
+  header {
+    height: 25vh;
+    border-bottom: 5px solid #eee;
+  }
+
+  main {
+    height: 75vh;
+  }
+
+  .right {
+    font-size: 1.2rem;
+    margin-right: 40%;
+    margin-bottom: 16%;
+  }
+
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .number {
+    font-size: 4rem;
+    width: 100%;
+    padding: 2rem 0;
+  }
+
+  .between {
+    font-size: 1.2rem;
+    top: 2.5rem;
+    right: 14%;
+    text-align: center;
+  }
+
+  /* .again, */
+  .message {
+    margin-bottom: 3rem;
+    height: 3rem;
+    text-align: center;
+    white-space: nowrap;
+  
+  }
+
+  .guess {
+    font-size: 3rem;
+    padding: 1rem;
+    width: 90%;
+    margin-bottom: 1rem;
+    margin-top: 25rem;
+    margin-left: 240%
+   
+  }
+
+  .check {
+    margin-left: 240%;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+
+  .again {
+margin-top: 80%;
+margin-left: 6rem;
+  }
+
+  .label-score {
+    margin-bottom: 1rem;
+  }
